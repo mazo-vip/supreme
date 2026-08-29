@@ -5,4 +5,4 @@ WORKDIR /app
 COPY . .
 RUN chmod +x *.sh
 EXPOSE 80 443
-CMD ["bash", "setup.sh"]
+CMD ["tail", "-f", "/dev/null"]
